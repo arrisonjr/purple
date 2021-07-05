@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700;800&display=swap");
+
+body {
+  font-family: "Mukta", sans-serif;
+  background: #222;
+  color: #fff;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  margin-bottom: 60px;
+}
+
+.brand {
+  font-size: 1.5em;
+}
+
+.menu-links {
+  display: flex;
+}
+
+.menu-links li a {
+  padding: 0px 5px;
+}
+
+.btn {
+  background: #6c64fc;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.btn:hover {
+  background: #3f37bc;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.texto {
+  flex: 1;
+}
+
+.roxo {
+  background: #6c64fc;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+
+svg {
+  display: block;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.roxo p {
+  font-size: 30px;
+}
+
+#servicos {
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.card-1,
+.card-2 {
+  margin-bottom: 60px;
+}
+
+#footer {
+  padding: 100px;
+  text-align: center;
+}
+
+.icones i {
+  color: #6c64fc;
+  padding: 5px;
+}
+
+.icones i:hover {
+  color: #3f37bc;
+}
+
+@media (max-width: 739px) {
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card {
+    flex-direction: column;
+  }
+}
