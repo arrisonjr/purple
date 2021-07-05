@@ -130,6 +130,9 @@ h3 {
 }
 
 @media (max-width: 739px) {
+   .menu {
+    flex-wrap: wrap;
+  }
   .sobre {
     display: flex;
     flex-direction: column;
